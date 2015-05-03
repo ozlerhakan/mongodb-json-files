@@ -1,0 +1,12 @@
+== MongoDB JSON Data
+
+A dedicated repository to collect JSON data to practice/use in https://www.mongodb.org/[MongoDB].
+
+=== List of JSON/BSON Files
+
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/tweets.zip[Tweets]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/enron.zip[Enron]
+
+== Contributing
+
+Feel free to make a pull request to add your collection files into the list. 
