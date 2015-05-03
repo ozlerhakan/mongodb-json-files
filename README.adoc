@@ -6,7 +6,8 @@ A dedicated repository to collect JSON data to practice/use in https://www.mongo
 
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/tweets.zip[Tweets]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/enron.zip[Enron]
-. http://media.mongodb.org/zips.json[zips]
+. http://media.mongodb.org/zips.json[Zips]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/palbum.zip[Palbum]
 
 == Contributing
 
