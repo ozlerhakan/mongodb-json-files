@@ -9,6 +9,7 @@ A dedicated repository to collect collections to practice/use in https://www.mon
 . http://media.mongodb.org/zips.json[Zips]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/palbum.zip[Palbum]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/grades.json[Grades]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/students.json[Students]
 
 == Contributing
 
