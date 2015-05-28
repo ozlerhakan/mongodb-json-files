@@ -12,6 +12,7 @@ A dedicated repository to collect collections to practice/use in https://www.mon
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/students.json[Students]
 . https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/dataset.json[Restaurants]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/profiles.json[Profiles]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/products.json[Products]
 
 == Contributing
 
