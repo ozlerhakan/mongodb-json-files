@@ -1,6 +1,6 @@
 == MongoDB JSON Data
 
-A dedicated repository to collect collections to practice/use in https://www.mongodb.org/[MongoDB].
+A dedicated repository that collects collections to practice/use in https://www.mongodb.org/[MongoDB].
 
 === List of JSON/BSON Files
 
@@ -13,6 +13,7 @@ A dedicated repository to collect collections to practice/use in https://www.mon
 . https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/dataset.json[Restaurants]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/profiles.json[Profiles]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/products.json[Products]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/trades.json[Trades]
 
 == Contributing
 
