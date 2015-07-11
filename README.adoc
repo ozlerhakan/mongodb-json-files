@@ -15,6 +15,7 @@ A dedicated repository that collects collections to practice/use in https://www.
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/products.json[Products]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/trades.json[Trades]
 . https://github.com/tmcnab/northwind-mongo[Northwind]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/countries.json[Countries]
 
 == Contributing
 
