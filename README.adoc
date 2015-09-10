@@ -19,6 +19,7 @@ A dedicated repository that collects collections to practice/use in https://www.
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/country.json[Countries]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/restaurant.json[Restaurants]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/reddit.zip[Subreddits]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/covers.json[Covers]
 
 == Contributing
 
