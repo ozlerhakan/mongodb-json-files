@@ -21,6 +21,8 @@ A dedicated repository that collects collections to practice/use in https://www.
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/reddit.zip[Subreddits]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/covers.json[Covers]
 . https://dl.dropboxusercontent.com/u/15056258/mongodb/media.zip[YoutubeVideos]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/catalog.books.json[Catalog.Books]
+. https://dl.dropboxusercontent.com/u/15056258/mongodb/stocks.zip[Stocks.Values]
 
 == Contributing
 
