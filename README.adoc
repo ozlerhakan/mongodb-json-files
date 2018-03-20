@@ -23,7 +23,7 @@ A dedicated repository that collects collections to practice/use in https://www.
 . https://dl.dropbox.com/s/ajbnxfxw95bbf8f/media.zip[YoutubeVideos]  
 . link:datasets/catalog.books.json[Catalog.Books] 
 . https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.zip[Stocks.Values] 
-. http://www.cs.cmu.edu/~enron/enron_mail_20150507.tgz[Email Dataset] 
+. https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz[Email Dataset] 
 . link:datasets/city_inspections.json[City]
 . link:datasets/companies.json[Companies] 
 . link:datasets/people-bson.zip[People]
