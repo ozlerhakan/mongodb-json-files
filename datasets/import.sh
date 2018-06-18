@@ -13,6 +13,7 @@ mongoimport --drop -c products --uri $1/test products.json
 mongoimport --drop -c profiles --uri $1/test profiles.json
 mongoimport --drop -c restaurants --uri $1/test restaurant.json
 mongoimport --drop -c students --uri $1/test students.json
+wget -qO- http://media.mongodb.org/zips.json | mongoimport --drop -c zips --uri $1/test
 
 unzip palbum.zip
 mongoimport --drop -c images --uri $1/music palbum/images.json
