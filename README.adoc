@@ -25,7 +25,8 @@ A dedicated repository that collects collections to practice/use in https://www.
 
 [cols="^1,^2,^3,^4",options="header"]
 |=========================================================================================================
-|link:datasets/people-bson.zip[People]|21 Mo|zip|???
+|Name|Size|Data type|How to import
+|link:datasets/people-bson.zip[People]|21 Mo|zip -> dump gzip|mongorestore --gzip
 |link:datasets/city_inspections.json[City inspections]|24 Mo|JSON|mongoimport
 |link:datasets/companies.json[Companies]|75 Mo|JSON|mongoimport
 |https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.zip[Stocks]|85 Mo|zip -> dump folder|mongorestore
@@ -33,7 +34,7 @@ A dedicated repository that collects collections to practice/use in https://www.
 |https://dl.dropbox.com/s/nfnvx6pggmvw5vt/enron.zip[Enron]|55 Mo|RAR (named .zip for confusion) -> dump folder|mongorestore
 |=========================================================================================================
 
-=== list of other dataset
+=== List of other dataset
 
 [cols="^1,^2,^3",options="header"]
 |=========================================================================================================
@@ -42,12 +43,12 @@ A dedicated repository that collects collections to practice/use in https://www.
 |=========================================================================================================
 
 === Import in MongoDB
-Use the `import.sh` script provided. You can see the help and the options with `import.sh --help`.
+Use the `import.sh` script provided to insert the "small" and the "bigger" datasets. You can see the help and the options with `import.sh --help`.
 
 ==== Current features:
 
 - Docker support: starts a MongoDB automatically in Docker for you.
-- Only insert the smallest dataset for a quick data import (cool for live demos)
+- Only insert the smallest dataset for a quick data import with `--small` (cool for live demos).
 
 ==== Requirements:
 - Docker if you use the docker option.
