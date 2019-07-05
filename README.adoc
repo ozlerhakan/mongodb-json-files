@@ -2,35 +2,63 @@
 
 A dedicated repository that collects collections to practice/use in https://www.mongodb.org/[MongoDB].
 
-=== List of JSON/BSON Files
+=== List of small datasets
 
-. link:datasets/tweets.zip[Tweets] 
-. https://dl.dropbox.com/s/nfnvx6pggmvw5vt/enron.zip[Enron]
-. http://media.mongodb.org/zips.json[Zips] 
-. link:datasets/palbum.zip[Palbum] 
-. link:datasets/grades.json[Grades] 
-. link:datasets/students.json[Students]
-. https://raw.githubusercontent.com/mongodb/docs-assets/primer-dataset/dataset.json[Restaurants]
-. link:datasets/profiles.json[Profiles]
-. link:datasets/products.json[Products]
-. https://dl.dropbox.com/s/gxbsj271j5pevec/trades.json[Trades] 
-. https://github.com/tmcnab/northwind-mongo[Northwind]
-. link:datasets/countries.json[Countries]
-. link:datasets/country.json[Countries]  
-. link:datasets/restaurant.json[Restaurants]
-. https://dl.dropbox.com/s/bs02niw30207sk5/reddit.zip[Subreddits] 
-. link:datasets/mongodb/covers.json[Covers] 
-. https://dl.dropbox.com/s/ajbnxfxw95bbf8f/media.zip[YoutubeVideos]  
-. link:datasets/catalog.books.json[Catalog.Books] 
-. https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.zip[Stocks.Values] 
-. https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz[Email Dataset] 
-. link:datasets/city_inspections.json[City]
-. link:datasets/companies.json[Companies] 
-. link:datasets/people-bson.zip[People]
+[cols="^1,^2,^3,^4",options="header"]
+|=========================================================================================================
+|Name|Size|Data type|How to import
+|link:datasets/tweets.zip[Tweets]|610 Ko|zip -> dump folder|mongorestore
+|http://media.mongodb.org/zips.json[Zips]|3.1 Mo|JSON|mongoimport
+|link:datasets/palbum.zip[Palbum]|731 Ko|zip -> JSON files|mongoimport
+|link:datasets/grades.json[Grades]|92 Ko|JSON|mongoimport
+|link:datasets/students.json[Students]|35 Ko|JSON|mongoimport
+|link:datasets/profiles.json[Profiles]|454 Ko|JSON|mongoimport
+|link:datasets/products.json[Products]|2.8 Ko|JSON|mongoimport
+|link:datasets/countries-small.json[Countries small]|329 Ko|JSON|mongoimport
+|link:datasets/countries-big.json[Countries big]|2.3 Mo|JSON|mongoimport
+|link:datasets/restaurant.json[Restaurants]|666 Ko|JSON|mongoimport
+|link:datasets/covers.json[Covers]|470 Ko|JSON|mongoimport
+|link:datasets/books.json[Books]|525 Ko|JSON|mongoimport
+|=========================================================================================================
+
+=== List of bigger datasets
+
+[cols="^1,^2,^3,^4",options="header"]
+|=========================================================================================================
+|Name|Size|Data type|How to import
+|link:datasets/people-bson.zip[People]|21 Mo|zip -> dump gzip|mongorestore --gzip
+|link:datasets/city_inspections.json[City inspections]|24 Mo|JSON|mongoimport
+|link:datasets/companies.json[Companies]|75 Mo|JSON|mongoimport
+|https://dl.dropbox.com/s/p75zp1karqg6nnn/stocks.zip[Stocks]|85 Mo|zip -> dump folder|mongorestore
+|https://dl.dropbox.com/s/gxbsj271j5pevec/trades.json[Trades]|232 Mo|JSON|mongoimport
+|https://dl.dropbox.com/s/nfnvx6pggmvw5vt/enron.zip[Enron]|55 Mo|RAR (named .zip for confusion) -> dump folder|mongorestore
+|=========================================================================================================
+
+=== List of other dataset
+
+[cols="^1,^2,^3",options="header"]
+|=========================================================================================================
+|Name|Size|Data type
+|https://www.cs.cmu.edu/~enron/enron_mail_20150507.tar.gz[Enron]|423 Mo|Email server tarball (slow DL server)
+|=========================================================================================================
+
+=== Import in MongoDB
+Use the `import.sh` script provided to insert the "small" and the "bigger" datasets. You can see the help and the options with `import.sh --help`.
+
+==== Current features:
+
+- Docker support: starts a MongoDB automatically in Docker for you.
+- Only insert the smallest dataset for a quick data import with `--small` (cool for live demos).
+
+==== Requirements:
+- Docker if you use the docker option.
+- link:https://www.mongodb.com/download-center/community[MongoDB] (mongoimport, mongorestore)
+- unzip
+- unrar (for the Enron dataset)
 
 == Contributing
 
-Feel free to make a pull request to add your collection files into the list. 
+Feel free to make a pull request to add your collection files into the list.
 
 == License
 
