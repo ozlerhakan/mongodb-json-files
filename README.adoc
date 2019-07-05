@@ -17,7 +17,7 @@ A dedicated repository that collects collections to practice/use in https://www.
 |link:datasets/countries-small.json[Countries small]|329 Ko|JSON|mongoimport
 |link:datasets/countries-big.json[Countries big]|2.3 Mo|JSON|mongoimport
 |link:datasets/restaurant.json[Restaurants]|666 Ko|JSON|mongoimport
-|link:datasets/mongodb/covers.json[Covers]|470 Ko|JSON|mongoimport
+|link:datasets/covers.json[Covers]|470 Ko|JSON|mongoimport
 |link:datasets/books.json[Books]|525 Ko|JSON|mongoimport
 |=========================================================================================================
 
