@@ -107,19 +107,19 @@ import_small_datasets() {
     wget -qO- http://media.mongodb.org/zips.json | mongoimport --drop -c zips --uri ${URI}/samples
 
     unzip palbum.zip
-    mongoimport --drop -c images --uri ${URI}/sample-pictures palbum/images.json
-    mongoimport --drop -c albums --uri ${URI}/sample-pictures palbum/albums.json
+    mongoimport --drop -c images --uri ${URI}/sample_pictures palbum/images.json
+    mongoimport --drop -c albums --uri ${URI}/sample_pictures palbum/albums.json
     rm -rf palbum
 
-    mongoimport --drop -c grades --uri ${URI}/sample-school grades.json
-    mongoimport --drop -c students --uri ${URI}/sample-school students.json
+    mongoimport --drop -c grades --uri ${URI}/sample_school grades.json
+    mongoimport --drop -c students --uri ${URI}/sample_school students.json
     mongoimport --drop -c profiles --uri ${URI}/samples profiles.json
     mongoimport --drop -c products --uri ${URI}/samples products.json
     mongoimport --drop -c countries-small --uri ${URI}/samples countries-small.json
     mongoimport --drop -c countries-big --uri ${URI}/samples countries-big.json
     mongoimport --drop -c restaurants --uri ${URI}/samples restaurant.json
-    mongoimport --drop -c covers --uri ${URI}/sample-library covers.json
-    mongoimport --drop -c books --uri ${URI}/sample-library books.json
+    mongoimport --drop -c covers --uri ${URI}/sample_library covers.json
+    mongoimport --drop -c books --uri ${URI}/sample_library books.json
 
     cd ..
 }
